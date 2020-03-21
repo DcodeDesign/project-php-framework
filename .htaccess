@@ -1,0 +1,107 @@
+AddDefaultCharset utf-8
+
+RewriteEngine On
+#on / off 	#Active/Désactive le module de réécriture.
+
+RewriteBase /generateView/
+#Chemin à utiliser comme préfixe dans une règle de réécriture.
+
+RewriteCond %{REQUEST_FILENAME} !-d
+#Permet d'insèrer une condition sur la règle de réécriture.
+#Traite « Chaîne » comme un chemin, vérifie s'il existe ou pas, et s'il s'agit d'un répertoire.
+
+RewriteCond %{REQUEST_FILENAME} !-f
+#Traite « Chaîne_de_test » comme un chemin, vérifie s'il existe ou pas, et s'il s'agit d'un fichier régulier.
+
+RewriteRule ^(.+)$ index.php [QSA,L]
+#Si le pattern correspond, indique comment réécrire l'URL.
+
+Options -Indexes
+
+#ErrorDocument 400 http://localhost:8888/.../400.html
+#ErrorDocument 401 http://localhost:8888/.../401.html
+#ErrorDocument 402 http://localhost:8888/.../402.html
+#ErrorDocument 403 http://localhost:8888/.../403.html
+#ErrorDocument 404 http://localhost:8888/.../404.html
+#ErrorDocument 405 http://localhost:8888/.../405.html
+#ErrorDocument 500 http://localhost:8888/.../500.html
+#ErrorDocument 501 http://localhost:8888/.../501.html
+#ErrorDocument 502 http://localhost:8888/.../502.html
+#ErrorDocument 503 http://localhost:8888/.../503.html
+#ErrorDocument 504 http://localhost:8888/.../504.html
+#ErrorDocument 505 http://localhost:8888/.../505.html
+
+# L => arrête le parcours des règles de redirection si celle en cours correspond.
+# QSA => transmet à la redirection les paramètres d'URLs. (derrière le point d'interrogation ?truc=machin&bidule=chouette).
+
+# Motif 	Signification 	Exemple
+# .	Correspond à tout caractère unique 	c.t correspondra à cat, cot, cut, etc.
+# +	Répète le caractère de correspondance précédent une ou plusieurs fois 	a+ correspond à a, aa, aaa, etc.
+# *	Répète le caractère de correspondance précédent zéro ou plusieurs fois 	a* correspond à tout ce à quoi correspond a+, mais correspond aussi à la chaîne vide.
+# ?	Rend la correspondance optionnelle.	colou?r correspondra à color et colour.
+# ^	Appelé ancrage, correspond au début de la chaîne 	^a correspond à une chaîne qui commence par a
+# $	L'autre ancrage, correspond à la fin de la chaîne. 	a$ correspond à une chaîne qui se termine par a.
+# ( )	Regroupe plusieurs caractères en une seule entité, et conserve une correspondance à des fins d'utilisation dans une référence arrière. 	(ab)+ correspond à ababab - à savoir, le + s'applique au groupe. Pour plus de détails sur les références arrières, voir ci-dessous.
+# [ ]	Une classe de caractères - correspond à un des caractères de la classe 	c[uoa]t correspond à cut, cot ou cat.
+# [^ ]	Négation de la classe de caractères - correspond à tout caractère ne faisant pas partie de la classe
+
+<IfModule mod_expires.c>
+ ExpiresActive On
+ ExpiresDefault "access plus 7200 seconds"
+ ExpiresByType image/jpg "access plus 2592000 seconds"
+ ExpiresByType image/jpeg "access plus 2592000 seconds"
+ ExpiresByType image/png "access plus 2592000 seconds"
+ ExpiresByType image/gif "access plus 2592000 seconds"
+ AddType image/x-icon .ico
+ ExpiresByType image/ico "access plus 2592000 seconds"
+ ExpiresByType image/icon "access plus 2592000 seconds"
+ ExpiresByType image/x-icon "access plus 2592000 seconds"
+ ExpiresByType text/css "access plus 2592000 seconds"
+ ExpiresByType text/javascript "access plus 2592000 seconds"
+ ExpiresByType text/html "access plus 7200 seconds"
+ ExpiresByType application/xhtml+xml "access plus 7200 seconds"
+ ExpiresByType application/javascript A2592000
+ ExpiresByType application/x-javascript "access plus 2592000 seconds"
+ ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
+</IfModule>
+# END Expire headers
+
+# BEGIN Cache-Control Headers
+<IfModule mod_headers.c>
+    <FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz)$">
+        Header set Cache-Control "max-age=2592000, public"
+    </FilesMatch>
+    <FilesMatch "\.(js)$">
+        Header set Cache-Control "max-age=2592000, private"
+    </FilesMatch>
+    <FilesMatch "\.(html|htm)$">
+        Header set Cache-Control "max-age=7200, public"
+    </FilesMatch>
+    # Disable caching for scripts and other dynamic files
+    <FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
+        Header unset Cache-Control
+    </FilesMatch>
+</IfModule>
+# END Cache-Control Headers
+
+<Files "logs.txt">
+  Order Allow,Deny
+  Deny from all
+</Files>
+
+######################
+## Handling Options for the CORS
+     RewriteCond %{REQUEST_METHOD} OPTIONS
+     RewriteRule ^(.*)$ $1 [L,R=204]
+
+###################
+## Add custom headers
+
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-XSS-Protection "1; mode=block"
+       # Always set these headers for CORS.
+    Header always set Access-Control-Max-Age 1728000
+    Header always set Access-Control-Allow-Origin: "*"
+    Header always set Access-Control-Allow-Methods: "GET,POST,OPTIONS,DELETE,PUT"
+    Header always set Access-Control-Allow-Headers: "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,C$
+    Header always set Access-Control-Allow-Credentials true

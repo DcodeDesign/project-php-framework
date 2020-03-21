@@ -1,0 +1,1447 @@
+[15-Mar-2020 20:22:09 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function LoginController::__construct(), 0 passed in /Applications/MAMP/htdocs/generateView/pages/page-login/LoginController.php on line 35 and exactly 1 expected in /Applications/MAMP/htdocs/generateView/pages/page-login/LoginController.php:5
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/pages/page-login/LoginController.php(35): LoginController->__construct()
+#1 /Applications/MAMP/htdocs/generateView/core/Router.php(17): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/core/Router.php(86): router->getPage(Array)
+#3 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#4 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/pages/page-login/LoginController.php on line 5
+[15-Mar-2020 20:22:30 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function LoginController::__construct(), 0 passed in /Applications/MAMP/htdocs/generateView/pages/page-login/LoginController.php on line 35 and exactly 1 expected in /Applications/MAMP/htdocs/generateView/pages/page-login/LoginController.php:5
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/pages/page-login/LoginController.php(35): LoginController->__construct()
+#1 /Applications/MAMP/htdocs/generateView/core/Router.php(18): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/core/Router.php(87): router->getPage(Array)
+#3 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#4 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/pages/page-login/LoginController.php on line 5
+[15-Mar-2020 20:22:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function LoginController::__construct(), 0 passed in /Applications/MAMP/htdocs/generateView/pages/page-login/LoginController.php on line 36 and exactly 1 expected in /Applications/MAMP/htdocs/generateView/pages/page-login/LoginController.php:5
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/pages/page-login/LoginController.php(36): LoginController->__construct()
+#1 /Applications/MAMP/htdocs/generateView/core/Router.php(18): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/core/Router.php(87): router->getPage(Array)
+#3 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#4 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/pages/page-login/LoginController.php on line 5
+[15-Mar-2020 20:23:49 UTC] PHP Notice:  Undefined variable: class in /Applications/MAMP/htdocs/generateView/pages/page-login/LoginController.php on line 37
+[15-Mar-2020 20:23:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getConnection() on null in /Applications/MAMP/htdocs/generateView/pages/page-login/LoginController.php:37
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(18): require_once()
+#1 /Applications/MAMP/htdocs/generateView/core/Router.php(87): router->getPage(Array)
+#2 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/pages/page-login/LoginController.php on line 37
+[15-Mar-2020 20:23:58 UTC] PHP Fatal error:  Uncaught Error: Class 'LoginModel' not found in /Applications/MAMP/htdocs/generateView/pages/page-login/LoginController.php:7
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(20): LoginController->__construct('LoginModel')
+#1 /Applications/MAMP/htdocs/generateView/core/Router.php(87): router->getPage(Array)
+#2 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/pages/page-login/LoginController.php on line 7
+[15-Mar-2020 20:24:35 UTC] PHP Notice:  Undefined index: return in /Applications/MAMP/htdocs/generateView/pages/page-login/LoginController.php on line 23
+[15-Mar-2020 20:29:11 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /Applications/MAMP/htdocs/generateView/pages/page-login/LoginController.php on line 28
+[15-Mar-2020 20:39:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactModel::allContacts() in /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php(18): ContactController->setContacts()
+#1 /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php(14): ContactController->getContacts()
+#2 /Applications/MAMP/htdocs/generateView/core/Controller.php(30): ContactController->initView()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(20): Controller->getView('pages/page-cont...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(86): router->getPage(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php on line 22
+[15-Mar-2020 20:40:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactModel::allContacts() in /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php(18): ContactController->setContacts()
+#1 /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php(14): ContactController->getContacts()
+#2 /Applications/MAMP/htdocs/generateView/core/Controller.php(30): ContactController->initView()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(20): Controller->getView('pages/page-cont...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(86): router->getPage(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php on line 22
+[15-Mar-2020 20:40:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactModel::allContacts() in /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php(18): ContactController->setContacts()
+#1 /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php(14): ContactController->getContacts()
+#2 /Applications/MAMP/htdocs/generateView/core/Controller.php(30): ContactController->initView()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(20): Controller->getView('pages/page-cont...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(86): router->getPage(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php on line 22
+[15-Mar-2020 20:40:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Model::select(), 1 passed in /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php on line 22 and exactly 3 expected in /Applications/MAMP/htdocs/generateView/core/Model.php:120
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php(22): Model->select('SELECT * FROM c...')
+#1 /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php(18): ContactController->setContacts()
+#2 /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php(14): ContactController->getContacts()
+#3 /Applications/MAMP/htdocs/generateView/core/Controller.php(30): ContactController->initView()
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(20): Controller->getView('pages/page-cont...')
+#5 /Applications/MAMP/htdocs/generateView/core/Router.php(86): router->getPage(Array)
+#6 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#7 / in /Applications/MAMP/htdocs/generateView/core/Model.php on line 120
+[15-Mar-2020 20:41:47 UTC] PHP Warning:  implode(): Invalid arguments passed in /Applications/MAMP/htdocs/generateView/core/Model.php on line 129
+[15-Mar-2020 20:41:47 UTC] PHP Warning:  array_unshift() expects parameter 1 to be array, string given in /Applications/MAMP/htdocs/generateView/core/Model.php on line 133
+[15-Mar-2020 20:41:47 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object in /Applications/MAMP/htdocs/generateView/core/Model.php on line 136
+[15-Mar-2020 20:41:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/core/Model.php on line 204
+[15-Mar-2020 20:41:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /Applications/MAMP/htdocs/generateView/core/Model.php:139
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php(22): Model->select('SELECT * FROM c...')
+#1 /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php(18): ContactController->setContacts()
+#2 /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php(14): ContactController->getContacts()
+#3 /Applications/MAMP/htdocs/generateView/core/Controller.php(30): ContactController->initView()
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(20): Controller->getView('pages/page-cont...')
+#5 /Applications/MAMP/htdocs/generateView/core/Router.php(86): router->getPage(Array)
+#6 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#8 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 139
+[15-Mar-2020 20:42:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /Applications/MAMP/htdocs/generateView/core/Model.php:13
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php(22): Model->query('SELECT * FROM c...')
+#1 /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php(18): ContactController->setContacts()
+#2 /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php(14): ContactController->getContacts()
+#3 /Applications/MAMP/htdocs/generateView/core/Controller.php(30): ContactController->initView()
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(20): Controller->getView('pages/page-cont...')
+#5 /Applications/MAMP/htdocs/generateView/core/Router.php(86): router->getPage(Array)
+#6 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#8 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 13
+[15-Mar-2020 20:43:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /Applications/MAMP/htdocs/generateView/core/Model.php:13
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php(22): Model->query('SELECT * FROM c...')
+#1 /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php(18): ContactController->setContacts()
+#2 /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php(14): ContactController->getContacts()
+#3 /Applications/MAMP/htdocs/generateView/core/Controller.php(30): ContactController->initView()
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(20): Controller->getView('pages/page-cont...')
+#5 /Applications/MAMP/htdocs/generateView/core/Router.php(86): router->getPage(Array)
+#6 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#8 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 13
+[15-Mar-2020 20:44:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /Applications/MAMP/htdocs/generateView/core/Model.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php(22): Model->query('SELECT * FROM c...')
+#1 /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php(18): ContactController->setContacts()
+#2 /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php(14): ContactController->getContacts()
+#3 /Applications/MAMP/htdocs/generateView/core/Controller.php(30): ContactController->initView()
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(20): Controller->getView('pages/page-cont...')
+#5 /Applications/MAMP/htdocs/generateView/core/Router.php(86): router->getPage(Array)
+#6 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#8 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 14
+[15-Mar-2020 20:46:10 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php on line 18
+[15-Mar-2020 20:46:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 7
+[15-Mar-2020 20:46:21 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php on line 18
+[15-Mar-2020 20:46:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 7
+[15-Mar-2020 20:46:56 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php on line 18
+[15-Mar-2020 20:46:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 7
+[15-Mar-2020 20:47:27 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php on line 23
+[15-Mar-2020 20:47:32 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php on line 18
+[15-Mar-2020 20:47:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 7
+[15-Mar-2020 20:48:09 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/generateView/pages/page-contact/ContactController.php on line 18
+[15-Mar-2020 20:48:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 7
+[15-Mar-2020 20:48:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 7
+[15-Mar-2020 20:48:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 7
+[15-Mar-2020 20:49:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 7
+[15-Mar-2020 20:50:44 UTC] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:50:57 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:50:57 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:50:57 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:50:57 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:50:57 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:50:57 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:50:57 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:50:57 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:50:57 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:50:57 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:50:57 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:50:57 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:50:57 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:50:57 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:50:57 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:50:57 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:50:57 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:50:57 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:50:57 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:50:57 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:51:29 UTC] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:52:08 UTC] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:52:23 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:52:23 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:52:23 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:52:23 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:52:23 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:52:23 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:52:23 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:52:23 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:52:23 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:52:23 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:52:23 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:52:23 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:52:23 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:52:23 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:52:23 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:52:23 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:52:23 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:52:23 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:52:23 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:52:23 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 8
+[15-Mar-2020 20:53:08 UTC] PHP Notice:  Undefined variable: item in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Notice:  Undefined variable: item in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Notice:  Undefined variable: item in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Notice:  Undefined variable: item in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Notice:  Undefined variable: item in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Notice:  Undefined variable: item in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Notice:  Undefined variable: item in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Notice:  Undefined variable: item in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Notice:  Undefined variable: item in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Notice:  Undefined variable: item in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Notice:  Undefined variable: item in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Notice:  Undefined variable: item in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Notice:  Undefined variable: item in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Notice:  Undefined variable: item in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Notice:  Undefined variable: item in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Notice:  Undefined variable: item in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Notice:  Undefined variable: item in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Notice:  Undefined variable: item in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Notice:  Undefined variable: item in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Notice:  Undefined variable: item in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:53:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 10
+[15-Mar-2020 20:54:22 UTC] PHP Notice:  Undefined variable: titre in /Applications/MAMP/htdocs/generateView/pages/page-contact/contactView.php on line 3
+[16-Mar-2020 11:07:44 UTC] PHP Fatal error:  Uncaught Error: Class 'ApiController' not found in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(43): require_once()
+#1 /Applications/MAMP/htdocs/generateView/core/Router.php(91): router->getApi(Array)
+#2 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php on line 3
+[16-Mar-2020 11:08:23 UTC] PHP Fatal error:  Uncaught Error: Class 'ApiController' not found in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(43): require_once()
+#1 /Applications/MAMP/htdocs/generateView/core/Router.php(91): router->getApi(Array)
+#2 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php on line 3
+[16-Mar-2020 11:09:04 UTC] PHP Fatal error:  Cannot declare class Model, because the name is already in use in /Applications/MAMP/htdocs/generateView/core/Model.php on line 211
+[16-Mar-2020 11:12:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactRead_apiModel::allContacts() in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(18): ContactRead_apiController->setContacts()
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(11): ContactRead_apiController->getContacts()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(23): ContactRead_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(48): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(92): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php on line 22
+[16-Mar-2020 11:13:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactRead_apiModel::allContacts() in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(18): ContactRead_apiController->setContacts()
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(11): ContactRead_apiController->getContacts()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactRead_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php on line 22
+[16-Mar-2020 11:14:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactRead_apiController::generetaView() in /Applications/MAMP/htdocs/generateView/core/ApiController.php:15
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ApiController->generate('./WebApi/api-co...', Array)
+#1 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#2 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#3 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#4 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/ApiController.php on line 15
+[16-Mar-2020 11:16:44 UTC] PHP Warning:  var_dump() expects at least 1 parameter, 0 given in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/contactRead.php on line 3
+[16-Mar-2020 11:16:59 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/contactRead.php on line 5
+[16-Mar-2020 11:48:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /Applications/MAMP/htdocs/generateView/core/Model.php:13
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(22): Model->query('SELECT * FROM c...')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(18): ContactRead_apiController->setContacts()
+#2 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(11): ContactRead_apiController->getContacts()
+#3 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactRead_apiController->init()
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#5 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#6 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/generateView/index.php(4): in /Applications/MAMP/htdocs/generateView/core/Model.php on line 13
+[16-Mar-2020 11:49:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /Applications/MAMP/htdocs/generateView/core/Model.php:13
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(22): Model->query('SELECT * FROM c...')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(18): ContactRead_apiController->setContacts()
+#2 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(11): ContactRead_apiController->getContacts()
+#3 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactRead_apiController->init()
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#5 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#6 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/generateView/index.php(4): in /Applications/MAMP/htdocs/generateView/core/Model.php on line 13
+[16-Mar-2020 11:49:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /Applications/MAMP/htdocs/generateView/core/Model.php:13
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(22): Model->query('SELECT * FROM c...')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(18): ContactRead_apiController->setContacts()
+#2 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(11): ContactRead_apiController->getContacts()
+#3 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactRead_apiController->init()
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#5 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#6 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/generateView/index.php(4): in /Applications/MAMP/htdocs/generateView/core/Model.php on line 13
+[16-Mar-2020 11:50:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /Applications/MAMP/htdocs/generateView/core/Model.php:13
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(22): Model->query('SELECT * FROM c...')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(18): ContactRead_apiController->setContacts()
+#2 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(11): ContactRead_apiController->getContacts()
+#3 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactRead_apiController->init()
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#5 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#6 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/generateView/index.php(4): in /Applications/MAMP/htdocs/generateView/core/Model.php on line 13
+[16-Mar-2020 11:50:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /Applications/MAMP/htdocs/generateView/core/Model.php:13
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(22): Model->query('SELECT * FROM c...')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(18): ContactRead_apiController->setContacts()
+#2 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(11): ContactRead_apiController->getContacts()
+#3 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactRead_apiController->init()
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#5 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#6 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/generateView/index.php(4): in /Applications/MAMP/htdocs/generateView/core/Model.php on line 13
+[16-Mar-2020 11:51:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /Applications/MAMP/htdocs/generateView/core/Model.php:13
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(22): Model->query('SELECT * FROM c...')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(18): ContactRead_apiController->setContacts()
+#2 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(11): ContactRead_apiController->getContacts()
+#3 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactRead_apiController->init()
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#5 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#6 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/generateView/index.php(4): in /Applications/MAMP/htdocs/generateView/core/Model.php on line 13
+[16-Mar-2020 11:52:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /Applications/MAMP/htdocs/generateView/core/Model.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(22): Model->query('SELECT * FROM c...')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(18): ContactRead_apiController->setContacts()
+#2 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-read/ContactRead.apiController.php(11): ContactRead_apiController->getContacts()
+#3 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactRead_apiController->init()
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#5 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#6 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/generateView/index.php(4): in /Applications/MAMP/htdocs/generateView/core/Model.php on line 14
+[16-Mar-2020 13:01:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 13:18:19 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 13:19:27 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 13:19:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 13:21:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 13:23:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 13:24:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 13:24:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 13:25:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 13:27:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 13:28:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 14:50:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 19:39:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 19:39:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 19:39:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 19:39:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 19:40:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 19:41:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 19:43:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 19:50:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 19:53:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 19:53:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 20:01:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 20:05:59 UTC] PHP Warning:  http_response_code() expects parameter 1 to be int, string given in /Applications/MAMP/htdocs/generateView/core/Router.php on line 50
+[16-Mar-2020 20:09:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 20:09:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 20:09:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 20:09:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 20:09:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 20:09:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 20:09:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 20:09:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 20:12:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 20:15:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:50
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(94): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 50
+[16-Mar-2020 20:16:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:50
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(94): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 50
+[16-Mar-2020 20:18:36 UTC] PHP Fatal error:  Uncaught Error: Call to protected method ContactUpdate_apiController::Init() from context 'router' in /Applications/MAMP/htdocs/generateView/core/Router.php:50
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(94): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 50
+[16-Mar-2020 20:18:37 UTC] PHP Fatal error:  Uncaught Error: Call to protected method ContactRead_apiController::Init() from context 'router' in /Applications/MAMP/htdocs/generateView/core/Router.php:50
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(94): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 50
+[16-Mar-2020 20:20:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:50
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(94): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 50
+[16-Mar-2020 20:21:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactUpdate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:50
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(94): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 50
+[16-Mar-2020 20:25:42 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 18
+[16-Mar-2020 20:25:42 UTC] PHP Notice:  Trying to get property 'id' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 18
+[16-Mar-2020 20:25:42 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(18): Model->update('contacts', Array, 'ssi', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 20:27:04 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 20:27:04 UTC] PHP Notice:  Trying to get property 'id' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 20:27:04 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(19): Model->update('contacts', Array, 'ssi', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(4): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 20:47:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactCreate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 20:47:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactCreate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 20:48:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactCreate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 20:48:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactCreate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 20:48:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactCreate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 20:48:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactCreate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 20:48:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactCreate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 20:48:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactCreate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[16-Mar-2020 21:01:39 UTC] PHP Notice:  Undefined variable: query in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 22
+[16-Mar-2020 21:08:28 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(21): Model->update('contacts', Array, 'ssi', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:12:01 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(21): Model->update('contacts', Array, 'si', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:13:32 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(21): Model->update('contacts', Array, 'si', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:14:08 UTC] PHP Warning:  implode(): Invalid arguments passed in /Applications/MAMP/htdocs/generateView/core/Model.php on line 99
+[16-Mar-2020 21:14:08 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(21): Model->update('contacts', Array, 's', Array, '')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:17:01 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(21): Model->update('contacts', Array, 'si', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:19:36 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(21): Model->update('contacts', Array, 'si', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:23:14 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(21): Model->update('contacts', Array, 'sd', Array, 'd')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:24:51 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(21): Model->update('contacts', Array, 's', Array, 'd')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:27:28 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(21): Model->update('contacts', Array, 's', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:27:30 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(21): Model->update('contacts', Array, 's', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:27:31 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(21): Model->update('contacts', Array, 's', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:27:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/core/Model.php on line 110
+[16-Mar-2020 21:27:59 UTC] PHP Warning:  array_merge(): Expected parameter 2 to be an array, string given in /Applications/MAMP/htdocs/generateView/core/Model.php on line 123
+[16-Mar-2020 21:27:59 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object in /Applications/MAMP/htdocs/generateView/core/Model.php on line 129
+[16-Mar-2020 21:27:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/core/Model.php on line 246
+[16-Mar-2020 21:27:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /Applications/MAMP/htdocs/generateView/core/Model.php:132
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(21): Model->update('contacts', Array, 's', '1', 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 132
+[16-Mar-2020 21:31:19 UTC] PHP Notice:  Undefined property: stdClass::$favori in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 20
+[16-Mar-2020 21:31:19 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(22): Model->update('contacts', Array, 's', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:31:40 UTC] PHP Notice:  Undefined property: stdClass::$favori in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 20
+[16-Mar-2020 21:31:40 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(22): Model->update('contacts', Array, 'si', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:33:29 UTC] PHP Notice:  Undefined property: stdClass::$favori in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 20
+[16-Mar-2020 21:33:29 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(22): Model->update('contacts', Array, 'si', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:33:56 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(22): Model->update('contacts', Array, 'si', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:34:25 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(22): Model->update('contacts', Array, 'si', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:36:43 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(22): Model->update('contacts', Array, 'si', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:40:53 UTC] PHP Parse error:  syntax error, unexpected '*' in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 38
+[16-Mar-2020 21:41:08 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'si', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:42:27 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'si', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:46:16 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'si', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:46:41 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'si', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:46:42 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'si', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:46:43 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'si', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:47:09 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'ss', Array, 's')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:47:10 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'ss', Array, 's')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:47:38 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 's', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:47:39 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 's', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:49:17 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'si', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:49:29 UTC] PHP Warning:  array_merge(): Expected parameter 2 to be an array, string given in /Applications/MAMP/htdocs/generateView/core/Model.php on line 123
+[16-Mar-2020 21:49:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/core/Model.php on line 246
+[16-Mar-2020 21:49:29 UTC] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /Applications/MAMP/htdocs/generateView/core/Model.php on line 129
+[16-Mar-2020 21:52:47 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:89
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'si', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 89
+[16-Mar-2020 21:55:36 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'sd', Array, 'd')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:56:32 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'ii', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:56:59 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'ii', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:57:11 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'ii', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:58:15 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'ii', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:58:28 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'dd', Array, 'd')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:58:29 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'dd', Array, 'd')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 21:58:40 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'dd', Array, 'd')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 22:00:24 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'dd', Array, 'd')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 22:00:51 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'ddd', Array, 'd')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 22:00:53 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'ddd', Array, 'd')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 22:00:55 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'ddd', Array, 'd')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 22:04:51 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'dd', Array, 'd')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 22:06:59 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'dd', Array, 'd')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 22:07:10 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'dd', Array, 'd')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 22:10:51 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'ii', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 22:11:53 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'ii', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 22:12:07 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'ii', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 22:12:56 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'ii', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 22:12:57 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'ii', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 22:12:58 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'ii', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 22:13:18 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'ii', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 22:13:19 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'ii', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 22:14:32 UTC] PHP Warning:  array_merge(): Expected parameter 2 to be an array, string given in /Applications/MAMP/htdocs/generateView/core/Model.php on line 124
+[16-Mar-2020 22:14:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/generateView/core/Model.php on line 247
+[16-Mar-2020 22:14:32 UTC] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /Applications/MAMP/htdocs/generateView/core/Model.php on line 130
+[16-Mar-2020 22:14:59 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:117
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'ii', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 117
+[16-Mar-2020 22:16:12 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/core/Model.php on line 115
+[16-Mar-2020 22:16:13 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:117
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'ii', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 117
+[16-Mar-2020 22:16:49 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/generateView/core/Model.php on line 115
+[16-Mar-2020 22:16:49 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/htdocs/generateView/core/Model.php:116
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, 'ii', Array, 'i')
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Model.php on line 116
+[16-Mar-2020 22:18:09 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:18:09 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:18:21 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:18:21 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:48 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:48 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:49 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:49 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:49 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:49 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:49 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:49 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:49 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:49 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:50 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:50 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:50 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:50 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:50 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:50 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:50 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:50 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:50 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:50 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:51 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:51 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:51 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:51 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:51 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:51 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:51 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:51 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:51 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:51 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:52 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:52 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:52 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:52 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:52 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:52 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:52 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:20:52 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:21:28 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:21:28 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:21:34 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:21:34 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:21:35 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:21:35 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:21:35 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:21:35 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:24:34 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:24:34 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:24:40 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:24:40 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:24:41 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:24:41 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:24:57 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:24:57 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:27:12 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:27:12 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:27:21 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:27:21 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:27:51 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:27:51 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:28:32 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Applications/MAMP/htdocs/generateView/templates/template-update-json.php on line 8
+[16-Mar-2020 22:33:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Model::update(), 3 passed in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 23 and exactly 5 expected in /Applications/MAMP/htdocs/generateView/core/Model.php:82
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, Array)
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/ht in /Applications/MAMP/htdocs/generateView/core/Model.php on line 82
+[16-Mar-2020 22:33:20 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:33:20 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:33:20 UTC] PHP Notice:  Undefined property: stdClass::$id in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 23
+[16-Mar-2020 22:33:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Model::update(), 3 passed in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 23 and exactly 5 expected in /Applications/MAMP/htdocs/generateView/core/Model.php:82
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, Array)
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/ht in /Applications/MAMP/htdocs/generateView/core/Model.php on line 82
+[16-Mar-2020 22:33:59 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:33:59 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 19
+[16-Mar-2020 22:33:59 UTC] PHP Notice:  Undefined property: stdClass::$id in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 23
+[16-Mar-2020 22:33:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Model::update(), 3 passed in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 23 and exactly 5 expected in /Applications/MAMP/htdocs/generateView/core/Model.php:82
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, Array)
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/ht in /Applications/MAMP/htdocs/generateView/core/Model.php on line 82
+[16-Mar-2020 22:35:51 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Model::update(), 3 passed in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 23 and exactly 5 expected in /Applications/MAMP/htdocs/generateView/core/Model.php:82
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(23): Model->update('contacts', Array, Array)
+#1 /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php(11): ContactUpdate_apiController->updateFavoris()
+#2 /Applications/MAMP/htdocs/generateView/core/ApiController.php(22): ContactUpdate_apiController->init()
+#3 /Applications/MAMP/htdocs/generateView/core/Router.php(49): ApiController->getInit('./WebApi/api-co...')
+#4 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#5 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#6 /Applications/MAMP/ht in /Applications/MAMP/htdocs/generateView/core/Model.php on line 82
+[16-Mar-2020 22:41:50 UTC] PHP Notice:  Undefined variable: data in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 16
+[16-Mar-2020 22:41:50 UTC] PHP Notice:  Trying to get property 'favoris' of non-object in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 16
+[16-Mar-2020 23:03:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ContactCreate_apiController::getInit() in /Applications/MAMP/htdocs/generateView/core/Router.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/generateView/core/Router.php(93): router->getApi(Array)
+#1 /Applications/MAMP/htdocs/generateView/settings.php(39): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/generateView/index.php(3): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/generateView/core/Router.php on line 49
+[17-Mar-2020 13:18:19 UTC] PHP Notice:  Undefined index: HTTP_ORIGIN in /Applications/MAMP/htdocs/generateView/WebApi/api-contact/contact-update/ContactUpdate.apiController.php on line 32
